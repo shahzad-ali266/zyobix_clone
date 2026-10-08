@@ -1,114 +1,305 @@
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zyobix</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zyobix | Digital Innovation Studio</title>
+  <meta name="description" content="Zyobix - Innovative digital solutions for startups, businesses, and creators. Explore modern design, web development, and creative technology services.">
+  <meta name="robots" content="index, follow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <header>
-        <div class="logo">
-            Zyobix
-        </div>
 
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#projects">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="logo">Zyobix</a>
+      <input type="checkbox" id="menu-toggle" class="menu-toggle">
+      <label for="menu-toggle" class="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></label>
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#project">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-    <!------------------------------------->
-    <section id="home" class="hero">
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <h1>Professional Web Development in World</h1>
+        <h2>Responsive websites, e-commerce, and backend systems — built to rank on Google.</h2>
+        <p>Empowering businesses with cutting-edge IT solutions that drive growth and innovation.</p>
+      </div>
+      <div class="hero-img">
+        <img src="https://463176-umar-rajput-zyobix.netlify.app/assets/about/hero-section-Bz784kpR-unscreen.gif" alt="About Zyobix">
+      </div>
+    </div>
+  </section>
 
-        <div class="hero-content">
+  <!-- ABOUT -->
+  <section id="about" class="section about">
+    <div class="container about-inner">
+      <h2 class="section-title">About Zyobix</h2>
+      <p>At Zyobix, we're more than just an IT company – we're your partner in digital transformation. With years of experience and a passion for innovation, we help businesses navigate the ever-evolving technological landscape.</p>
+      <p>Our mission is to deliver cutting-edge solutions that drive growth, enhance efficiency, and create lasting value for our clients. We combine technical expertise with creative thinking to solve complex challenges and unlock new opportunities.</p>
+      <a href="#contact" class="btn">Learn More</a>
+    </div>
+  </section>
 
-            <h1>
-                Professional Web Development in World
-            </h1>
-
-            <p>
-                Responsive websites, e-commerce, and backend
-                systems — built to rank on Google.
-            </p>
-
-            <p>
-                Empowering businesses with cutting-edge IT
-                solutions that drive growth and innovation.
-            </p>
-
-
-        </div>
-
-    </section>
-
-
-<section id="about" class="about section">
-
+  <!-- SERVICES -->
+  <section id="services" class="section services">
     <div class="container">
+      <h2 class="section-title center">Our Services</h2>
+      <p class="section-sub">We offer a comprehensive range of IT solutions to help your business thrive in the digital age.</p>
 
-        <div class="about-content">
+      <div class="services-grid">
+        <div class="card service-card">
+          <img src="https://463176-umar-rajput-zyobix.netlify.app/assets/services/uiUx-C9oaiHwr.gif" alt="UI/UX">
+          <h3>UI/UX Design</h3>
+          <p>Create intuitive and engaging user experiences that drive conversion and satisfaction.</p>
+          <a href="#" class="link">Learn More →</a>
+        </div>
+        <div class="card service-card">
+          <img src="https://463176-umar-rajput-zyobix.netlify.app/assets/services/webDev-BOPHa_Lq.gif" alt="web-dev">
+          <h3>Web Development</h3>
+          <p>Build modern, responsive websites and web applications using cutting-edge technologies.</p>
+          <a href="#" class="link">Learn More →</a>
+        </div>
+        <div class="card service-card">
+          <img src="https://463176-umar-rajput-zyobix.netlify.app/assets/services/marketing-Ceh_oUdo.gif" alt="marketing">
+          <h3>Digital Marketing</h3>
+          <p>Boost your online presence and reach the right audience with data-driven marketing strategies.</p>
+          <a href="#" class="link">Learn More →</a>
+        </div>
+        <div class="card service-card">
+          <img src="https://463176-umar-rajput-zyobix.netlify.app/assets/services/management-CdEY2A6A.gif" alt="management">
+          <h3>Social Media Management</h3>
+          <p>Enhance your brand’s social presence and engage with your audience effectively.</p>
+          <a href="#" class="link">Learn More →</a>
+        </div>
+      </div>
 
-            <div class="about-text">
+      <div class="stats">
+        <div class="stat"><strong>77+</strong><span>Projects Completed</span></div>
+        <div class="stat"><strong>99%</strong><span>Client Satisfaction</span></div>
+        <div class="stat"><strong>3+</strong><span>Years Experience</span></div>
+        <div class="stat"><strong>6+</strong><span>Team Members</span></div>
+      </div>
+    </div>
+  </section>
 
-                <span class="section-label">ABOUT US</span>
+  <!-- PROJECTS -->
+  <section id="project" class="section projects">
+    <div class="container">
+      <h2 class="section-title center">Our Projects</h2>
+      <p class="section-sub">Explore our portfolio of successful projects delivered with excellence.</p>
 
-                <h2>
-                    About Zyobix
-                </h2>
+      <div class="projects-grid">
+        <a href="https://mallofemirates.store/" target="_blank" rel="noopener" class="card project-card">
+          <span class="tag">Web Development</span>
+          <h3>E-Commerce Platform</h3>
+          <p>A complete online store for Mall of Emirates, offering a wide range of products with a seamless shopping experience and secure checkout.</p>
+        </a>
 
-                <p>
-                   At Zyobix, we're more than just an IT company – we're your partner in digital transformation.
-                    With years of experience and a passion for innovation,
-                     we help businesses navigate the ever-evolving technological landscape.
-                </p>
+        <a href="https://zenmato.com/" target="_blank" rel="noopener" class="card project-card">
+          <span class="tag">Web Application</span>
+          <h3>Custom Hoodie Store</h3>
+          <p>An eCommerce website specializing in selling custom-designed hoodies, featuring an interactive design tool and secure payment integration.</p>
+        </a>
 
-                <p>
-                   Our mission is to deliver cutting-edge solutions that drive growth, enhance efficiency,
-                    and create lasting value for our clients. We combine technical expertise
-                    with creative thinking to solve complex challenges and unlock new opportunities.
-                </p>
-
-                <a href="#contact" class="btn">
-                    Learn More
-                </a>
-
-            </div>
-
-            <div class="about-image">
-                <img src="https://463176-umar-rajput-zyobix.netlify.app/assets/about/hero-section-Bz784kpR-unscreen.gif" alt="About Zyobix">
-            </div>
-
+        <div class="card project-card featured">
+          <img src="https://463176-umar-rajput-zyobix.netlify.app/assets/designersLeather-BHccTRkg.png" alt="Designers Leather">
+          <span class="tag">Brand Development</span>
+          <h3>Designers Leather</h3>
+          <p>A premium online brand identity for Designers Leather, showcasing high-quality leather products with a stylish and luxurious design approach.</p>
         </div>
 
+        <a href="https://clickysolution.com/" target="_blank" rel="noopener" class="card project-card">
+          <span class="tag">Portfolio Website</span>
+          <h3>Clicky Solution</h3>
+          <p>A sleek and professional portfolio website showcasing software solutions, company projects, and client testimonials.</p>
+        </a>
+
+        <a href="https://zeemalglam.com/" target="_blank" rel="noopener" class="card project-card">
+          <span class="tag">E-Commerce Store</span>
+          <h3>Ladies Fashion Store</h3>
+          <p>An elegant eCommerce platform for selling trendy ladies’ dresses, with a user-friendly interface, filtering options, and fast checkout.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <div class="container">
+      <h2>Ready to Transform Your Business?</h2>
+      <p>Let's discuss how we can help you achieve your digital transformation goals.</p>
+      <a href="#contact" class="btn btn-light">Schedule a Consultation</a>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section testimonials">
+    <div class="container">
+      <h2 class="section-title center">Client Testimonials</h2>
+      <p class="section-sub">Don't just take our word for it – hear what our clients have to say about working with Zyobix.</p>
     </div>
 
-</section>
+    <div class="marquee">
+      <div class="marquee-track">
+        <!-- set 1 -->
+        <div class="card t-card">
+          <div class="t-user">
+            <img src="https://463176-umar-rajput-zyobix.netlify.app/assets/avater1.jpg" alt="User Avatar">
+            <div><h4>Sarah Johnson</h4><small>Owner Sarah's Cookies</small></div>
+          </div>
+          <div class="stars">★ ★ ★ ★ ★</div>
+          <p>Zyobix boosted our online sales and grew our brand with expert social media management.</p>
+        </div>
+        <div class="card t-card">
+          <div class="t-user">
+            <img src="https://463176-umar-rajput-zyobix.netlify.app/assets/avater2.jpg" alt="User Avatar">
+            <div><h4>M Haider</h4><small>CEO ,Clicky Solution</small></div>
+          </div>
+          <div class="stars">★ ★ ★ ★ ★</div>
+          <p>Zyobix built us a stunning portfolio website and provided top-notch support throughout which helped in our business representation.</p>
+        </div>
+        <div class="card t-card">
+          <div class="t-user">
+            <img src="https://463176-umar-rajput-zyobix.netlify.app/assets/avater3.jpg" alt="User Avatar">
+            <div><h4>Micheal Brown</h4><small>Director of Future Tech</small></div>
+          </div>
+          <div class="stars">★ ★ ★ ★ ★</div>
+          <p>Zyobix’s creative posts and ad campaigns boosted our engagement and conversions effortlessly.</p>
+        </div>
+        <div class="card t-card">
+          <div class="t-user">
+            <img src="https://463176-umar-rajput-zyobix.netlify.app/assets/avater4.jpg" alt="User Avatar">
+            <div><h4>John Smith</h4><small>Founder, Smith's Retails</small></div>
+          </div>
+          <div class="stars">★ ★ ★ ★ ★</div>
+          <p>Zyobix helped us take our local business online with a seamless eCommerce solution. Their expertise in web development and digital strategy boosted our sales and expanded our reach beyond expectations.</p>
+        </div>
 
-    <section class="services">
+        <!-- set 2 (duplicate for seamless loop) -->
+        <div class="card t-card" aria-hidden="true">
+          <div class="t-user">
+            <img src="https://463176-umar-rajput-zyobix.netlify.app/assets/avater1.jpg" alt="">
+            <div><h4>Sarah Johnson</h4><small>Owner Sarah's Cookies</small></div>
+          </div>
+          <div class="stars">★ ★ ★ ★ ★</div>
+          <p>Zyobix boosted our online sales and grew our brand with expert social media management.</p>
+        </div>
+        <div class="card t-card" aria-hidden="true">
+          <div class="t-user">
+            <img src="https://463176-umar-rajput-zyobix.netlify.app/assets/avater2.jpg" alt="">
+            <div><h4>M Haider</h4><small>CEO ,Clicky Solution</small></div>
+          </div>
+          <div class="stars">★ ★ ★ ★ ★</div>
+          <p>Zyobix built us a stunning portfolio website and provided top-notch support throughout which helped in our business representation.</p>
+        </div>
+        <div class="card t-card" aria-hidden="true">
+          <div class="t-user">
+            <img src="https://463176-umar-rajput-zyobix.netlify.app/assets/avater3.jpg" alt="">
+            <div><h4>Micheal Brown</h4><small>Director of Future Tech</small></div>
+          </div>
+          <div class="stars">★ ★ ★ ★ ★</div>
+          <p>Zyobix’s creative posts and ad campaigns boosted our engagement and conversions effortlessly.</p>
+        </div>
+        <div class="card t-card" aria-hidden="true">
+          <div class="t-user">
+            <img src="https://463176-umar-rajput-zyobix.netlify.app/assets/avater4.jpg" alt="">
+            <div><h4>John Smith</h4><small>Founder, Smith's Retails</small></div>
+          </div>
+          <div class="stars">★ ★ ★ ★ ★</div>
+          <p>Zyobix helped us take our local business online with a seamless eCommerce solution. Their expertise in web development and digital strategy boosted our sales and expanded our reach beyond expectations.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    </section>
+  <!-- CONTACT -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <h2 class="section-title center">Get in Touch</h2>
+      <p class="section-sub">Ready to start your project? Contact us for a free consultation.</p>
 
-    <section class="testimonials">
+      <form class="contact-form" action="#" method="post">
+        <div class="field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="field">
+          <label for="service">Select Service</label>
+          <select id="service" name="service" required>
+            <option value="">Select Service</option>
+            <option>Web Development</option>
+            <option>UI / UX</option>
+            <option>Digital Marketing</option>
+            <option>Social Media Management</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </div>
+  </section>
 
-    </section>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Zyobix</h3>
+        <p>Empowering businesses with innovative IT solutions.</p>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li>UI/UX Design</li>
+          <li>Web Development</li>
+          <li>Mobile Apps</li>
+          <li>Cloud Solutions</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="https://www.linkedin.com/company/zyobix/" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://www.facebook.com/zyobix/" target="_blank" rel="noopener">Facebook</a></li>
+          <li><a href="https://www.instagram.com/zyobix/" target="_blank" rel="noopener">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container copyright">© 2025 Zyobix. All rights reserved.</div>
+  </footer>
 
-    <section class="contact">
-
-    </section>
-
-    <!------------------------------------->
-
-    <footer>
-
-    </footer>
+  <!-- WHATSAPP FLOATING BUTTON -->
+  <a href="https://wa.me/+923282358935" class="whatsapp" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <img src="https://463176-umar-rajput-zyobix.netlify.app/assets/whatsapp.gif" alt="WhatsApp">
+  </a>
 
 </body>
-
 </html>
